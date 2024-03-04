@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    flex-direction: column; /* Cambiar la dirección del flexbox a columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input {
+    margin-bottom: 15px; /* Aumentar el espacio entre los inputs */
+    width: 300px; /* Aumentar el ancho de los inputs */
+    padding: 10px; /* Aumentar el espacio dentro de los inputs */
+    border-radius: 5px; /* Agregar bordes redondeados */
+    border: 1px solid #ccc; /* Agregar borde */
+    box-sizing: border-box; /* Incluir el padding y el borde en el ancho total */
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección del flexbox a columna */
+    align-items: flex-start; /* Alinear elementos a la izquierda */
+}
+
+.header p {
+    margin: 0;
+    margin-bottom: 10px; /* Agregar margen en la dirección vertical */
+}
+
+.header a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px; /* Agregar margen en la dirección vertical */
+}
+
+.header a:last-child {
+    margin-left: auto; /* Empujar el último enlace hacia la derecha */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Una sola columna */
+    grid-gap: 10px; /* Espacio entre las filas */
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item label {
+    margin-bottom: 5px;
+}
+#datosTarea {
+    display: flex;
+    flex-direction: row; /* Cambiar la dirección del flexbox a fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    width: 100%; /* Ancho completo del contenedor */
+    margin-bottom: 20px; /* Espacio debajo del contenedor */
+}
+
+#datosTarea .grid-item {
+    flex: 1; /* Que cada item ocupe el mismo espacio */
+    margin-right: 10px; /* Espacio entre los items */
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección del flexbox a columna */
+}
+
+input {
+    width: 100%; /* Ocupar todo el espacio disponible */
+    margin-bottom: 15px; /* Espacio entre los inputs */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde */
+    box-sizing: border-box; /* Incluir el padding y el borde en el ancho total */
+}
+
+label {
+    margin-bottom: 5px; /* Espacio entre los labels */
+}
